@@ -52,8 +52,8 @@ bool FakeSMBIOS::start(IOService* provider)
     }
 
     // get properties from Info.plist
-	OSDictionary* providerDict = OSDynamicCast(OSDictionary, getProperty("FakeProperties"));
-	OSObject*     dictStr = NULL;
+    OSDictionary* providerDict = OSDynamicCast(OSDictionary, getProperty("FakeProperties"));
+    OSObject*     dictStr = NULL;
     UInt8         length;
     // inject compatible
     dictStr = providerDict->getObject("compatible");
@@ -68,46 +68,46 @@ bool FakeSMBIOS::start(IOService* provider)
         }
     }
     // inject product-name
-	dictStr = providerDict->getObject("product-name");
-	if (dictStr)
-	{
-		OSString* gFakeProductName = OSDynamicCast(OSString, dictStr);
-        length = gFakeProductName->getLength();
-		if (length)
-        {
-            IOLog("FakeSMBIOS: Inject model %s\n", gFakeProductName->getCStringNoCopy());
-            fRoot->setProperty("product-name", OSData::withBytes(gFakeProductName->getCStringNoCopy(), length + 1));
-        }
-	}
+    dictStr = providerDict->getObject("product-name");
+    if (dictStr)
+    {
+      OSString* gFakeProductName = OSDynamicCast(OSString, dictStr);
+      length = gFakeProductName->getLength();
+      if (length)
+      {
+        IOLog("FakeSMBIOS: Inject model %s\n", gFakeProductName->getCStringNoCopy());
+        fRoot->setProperty("product-name", OSData::withBytes(gFakeProductName->getCStringNoCopy(), length + 1));
+      }
+    }
     // inject model
-	dictStr = providerDict->getObject("model");
-	if (dictStr)
-	{
-		OSString* gFakeModel = OSDynamicCast(OSString, dictStr);
-        length = gFakeModel->getLength();
-		if (length)
-		{
-            IOLog("FakeSMBIOS: Inject model %s\n", gFakeModel->getCStringNoCopy());
-			fRoot->setProperty("model", OSData::withBytes(gFakeModel->getCStringNoCopy(), length + 1));
-			fRoot->setName(gFakeModel->getCStringNoCopy());
-		}
-	}
-	
-	publishResource("FakeSMBIOS");
+    dictStr = providerDict->getObject("model");
+    if (dictStr)
+    {
+      OSString* gFakeModel = OSDynamicCast(OSString, dictStr);
+      length = gFakeModel->getLength();
+      if (length)
+      {
+        IOLog("FakeSMBIOS: Inject model %s\n", gFakeModel->getCStringNoCopy());
+        fRoot->setProperty("model", OSData::withBytes(gFakeModel->getCStringNoCopy(), length + 1));
+        fRoot->setName(gFakeModel->getCStringNoCopy());
+      }
+    }
+
+    publishResource("FakeSMBIOS");
     registerService();
-    
-	return ret;
+
+    return ret;
 }
 
 void FakeSMBIOS::stop(IOService* provider)
 {
     IOLog("FakeSMBIOS::stop() %p\n", this);
-	super::stop(provider);
+    super::stop(provider);
 }
 
 void FakeSMBIOS::free(void)
 {
     IOLog("FakeSMBIOS::free() %p\n", this);
     fRoot->release();
-	super::free();
+    super::free();
 }
