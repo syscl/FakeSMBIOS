@@ -12,14 +12,14 @@ class FakeSMBIOS : public IOService
 {
     OSDeclareDefaultStructors(FakeSMBIOS)
     typedef IOService super;
-    
+
 protected:
-    IOService*          fRoot;
-    
+    IOService*      fRoot;
+
 public:
-    virtual bool        init(OSDictionary *dict);
-    virtual bool		start(IOService* provider);
-    virtual void		stop(IOService* provider);
-    virtual void		free(void);
+    virtual bool    init(OSDictionary* dict);
+    virtual bool    start(IOService* provider);
+    virtual void    stop(IOService* provider);
+    virtual void    free(void);
 
 };
