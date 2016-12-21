@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeTarget = 32D94FC30562CBF700B6AF17 /* SMBIOSResolver */;
+		breakpoints = (
+		);
+		codeSenseManager = BEA9D55E0DF4B40E0074AC09 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1042,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1002,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 247436290;
+			PBXWorkspaceStateSaveDate = 247436290;
+		};
+		perUserProjectItems = {
+			BE3D2FF50EBF941000C5CFF1 /* PlistBookmark */ = BE3D2FF50EBF941000C5CFF1 /* PlistBookmark */;
+			BE3D2FF80EBF941000C5CFF1 /* PBXTextBookmark */ = BE3D2FF80EBF941000C5CFF1 /* PBXTextBookmark */;
+			BE3D2FF90EBF941000C5CFF1 /* PBXTextBookmark */ = BE3D2FF90EBF941000C5CFF1 /* PBXTextBookmark */;
+			BE6D308B0EBE24080072108F /* PlistBookmark */ = BE6D308B0EBE24080072108F /* PlistBookmark */;
+			BE6D308C0EBE24080072108F /* PBXTextBookmark */ = BE6D308C0EBE24080072108F /* PBXTextBookmark */;
+			BE6D308D0EBE24080072108F /* PBXTextBookmark */ = BE6D308D0EBE24080072108F /* PBXTextBookmark */;
+			BEA7D4B40E4F692000B46D21 /* PBXTextBookmark */ = BEA7D4B40E4F692000B46D21 /* PBXTextBookmark */;
+			BEA7D4B50E4F692000B46D21 /* PBXTextBookmark */ = BEA7D4B50E4F692000B46D21 /* PBXTextBookmark */;
+			BEA7D50D0E4F77FA00B46D21 /* PBXTextBookmark */ = BEA7D50D0E4F77FA00B46D21 /* PBXTextBookmark */;
+			BED4E3DC0EBB57AA008B5893 /* PBXTextBookmark */ = BED4E3DC0EBB57AA008B5893 /* PBXTextBookmark */;
+			BED4E3DE0EBB57AA008B5893 /* PBXTextBookmark */ = BED4E3DE0EBB57AA008B5893 /* PBXTextBookmark */;
+			BEE919300EB639FF003F908F /* PBXTextBookmark */ = BEE919300EB639FF003F908F /* PBXTextBookmark */;
+			BEF153520E59774400E9157F /* PBXTextBookmark */ = BEF153520E59774400E9157F /* PBXTextBookmark */;
+			BEF153540E59774400E9157F /* PBXTextBookmark */ = BEF153540E59774400E9157F /* PBXTextBookmark */;
+			BEF153560E59774400E9157F /* PBXTextBookmark */ = BEF153560E59774400E9157F /* PBXTextBookmark */;
+			BEF153C50E5A306D00E9157F /* PBXTextBookmark */ = BEF153C50E5A306D00E9157F /* PBXTextBookmark */;
+			BEFCDEB80EBBC2700065C0AD /* PBXTextBookmark */ = BEFCDEB80EBBC2700065C0AD /* PBXTextBookmark */;
+		};
+		sourceControlManager = BEA9D55D0DF4B40E0074AC09 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	089C167EFE841241C02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {525, 392}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 100}";
+			sepNavWindowFrame = "{{61, 573}, {750, 558}}";
+		};
+	};
+	1A224C3EFF42367911CA2CB7 /* SMBIOSResolver.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 430}}";
+			sepNavSelRange = "{549, 0}";
+			sepNavVisRange = "{0, 783}";
+			sepNavWindowFrame = "{{812, 545}, {750, 558}}";
+		};
+	};
+	1A224C3FFF42367911CA2CB7 /* SMBIOSResolver.cpp */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{1504, 92}\";\n            s = 0;\n        },\n                {\n            r = \"{16457, 1096}\";\n            s = 0;\n        },\n                {\n            r = \"{17605, 25}\";\n            s = 0;\n        },\n                {\n            r = \"{17668, 43}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 17714}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {948, 6944}}";
+			sepNavSelRange = "{16369, 0}";
+			sepNavVisRange = "{14049, 1717}";
+			sepNavWindowFrame = "{{677, 205}, {888, 959}}";
+		};
+	};
+	32D94FC30562CBF700B6AF17 /* SMBIOSResolver */ = {
+		activeExec = 0;
+	};
+	32D94FCF0562CBF700B6AF17 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {711, 1918}}";
+			sepNavSelRange = "{2921, 0}";
+			sepNavVisRange = "{0, 828}";
+			sepNavVisRect = "{{0, 1206}, {711, 430}}";
+			sepNavWindowFrame = "{{84, 552}, {750, 558}}";
+		};
+	};
+	BE3D2FF50EBF941000C5CFF1 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 32D94FCF0562CBF700B6AF17 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			IOKitPersonalities,
+			Generic,
+			Override,
+			"serial-number",
+		);
+		name = /Users/aredigranes/Projects/SMBIOSResolver/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	BE3D2FF80EBF941000C5CFF1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1A224C3FFF42367911CA2CB7 /* SMBIOSResolver.cpp */;
+		name = "SMBIOSResolver.cpp: 520";
+		rLen = 0;
+		rLoc = 17555;
+		rType = 0;
+		vrLen = 1717;
+		vrLoc = 14140;
+	};
+	BE3D2FF90EBF941000C5CFF1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1A224C3EFF42367911CA2CB7 /* SMBIOSResolver.h */;
+		name = "SMBIOSResolver.h: 21";
+		rLen = 0;
+		rLoc = 549;
+		rType = 0;
+		vrLen = 783;
+		vrLoc = 0;
+	};
+	BE6336270E578F0800BD3B0C /* IOPlatformExpert.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = IOPlatformExpert.h;
+		path = /System/Library/Frameworks/Kernel.framework/Versions/A/Headers/IOKit/IOPlatformExpert.h;
+		sourceTree = "<absolute>";
+	};
+	BE6D308B0EBE24080072108F /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 32D94FCF0562CBF700B6AF17 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			IOKitPersonalities,
+			Generic,
+			Override,
+			"serial-number",
+		);
+		name = /Users/aredigranes/Projects/SMBIOSResolver/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	BE6D308C0EBE24080072108F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1A224C3FFF42367911CA2CB7 /* SMBIOSResolver.cpp */;
+		name = "SMBIOSResolver.cpp: 520";
+		rLen = 0;
+		rLoc = 17555;
+		rType = 0;
+		vrLen = 1717;
+		vrLoc = 14140;
+	};
+	BE6D308D0EBE24080072108F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1A224C3EFF42367911CA2CB7 /* SMBIOSResolver.h */;
+		name = "SMBIOSResolver.h: 21";
+		rLen = 0;
+		rLoc = 549;
+		rType = 0;
+		vrLen = 783;
+		vrLoc = 0;
+	};
+	BE73CA8B0EBB513000D14D9C /* locks.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = locks.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Kernel.framework/Headers/machine/locks.h;
+		sourceTree = "<absolute>";
+	};
+	BEA7D4B40E4F692000B46D21 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1A224C3FFF42367911CA2CB7 /* SMBIOSResolver.cpp */;
+		name = "SMBIOSResolver.cpp: 422";
+		rLen = 37;
+		rLoc = 16326;
+		rType = 0;
+		vrLen = 274;
+		vrLoc = 4719;
+	};
+	BEA7D4B50E4F692000B46D21 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1A224C3EFF42367911CA2CB7 /* SMBIOSResolver.h */;
+		name = "SMBIOSResolver.h: 19";
+		rLen = 0;
+		rLoc = 513;
+		rType = 0;
+		vrLen = 186;
+		vrLoc = 407;
+	};
+	BEA7D50D0E4F77FA00B46D21 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C167EFE841241C02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 100;
+		vrLoc = 0;
+	};
+	BEA9D55D0DF4B40E0074AC09 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	BEA9D55E0DF4B40E0074AC09 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	BED4E3DC0EBB57AA008B5893 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE73CA8B0EBB513000D14D9C /* locks.h */;
+		name = "locks.h: 38";
+		rLen = 34;
+		rLoc = 1529;
+		rType = 0;
+		vrLen = 1355;
+		vrLoc = 0;
+	};
+	BED4E3DE0EBB57AA008B5893 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE73CA8B0EBB513000D14D9C /* locks.h */;
+		name = "locks.h: 38";
+		rLen = 34;
+		rLoc = 1529;
+		rType = 0;
+		vrLen = 1355;
+		vrLoc = 0;
+	};
+	BEE919300EB639FF003F908F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1A224C3EFF42367911CA2CB7 /* SMBIOSResolver.h */;
+		name = "SMBIOSResolver.h: 23";
+		rLen = 0;
+		rLoc = 643;
+		rType = 0;
+		vrLen = 783;
+		vrLoc = 0;
+	};
+	BEF153520E59774400E9157F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE6336270E578F0800BD3B0C /* IOPlatformExpert.h */;
+		name = "IOPlatformExpert.h: 165";
+		rLen = 21;
+		rLoc = 5654;
+		rType = 0;
+		vrLen = 1286;
+		vrLoc = 5149;
+	};
+	BEF153540E59774400E9157F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C167EFE841241C02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 100;
+		vrLoc = 0;
+	};
+	BEF153560E59774400E9157F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE6336270E578F0800BD3B0C /* IOPlatformExpert.h */;
+		name = "IOPlatformExpert.h: 165";
+		rLen = 21;
+		rLoc = 5654;
+		rType = 0;
+		vrLen = 1286;
+		vrLoc = 5149;
+	};
+	BEF153C50E5A306D00E9157F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32D94FCF0562CBF700B6AF17 /* Info.plist */;
+		name = "Info.plist: 59";
+		rLen = 39;
+		rLoc = 1783;
+		rType = 0;
+		vrLen = 790;
+		vrLoc = 1184;
+	};
+	BEFCDEB80EBBC2700065C0AD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1A224C3FFF42367911CA2CB7 /* SMBIOSResolver.cpp */;
+		name = "SMBIOSResolver.cpp: 87";
+		rLen = 0;
+		rLoc = 2079;
+		rType = 0;
+		vrLen = 2025;
+		vrLoc = 1712;
+	};
+}

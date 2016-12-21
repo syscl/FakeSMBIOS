@@ -1,0 +1,163 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeTarget = 32D94FC30562CBF700B6AF17 /* SMBIOSResolver */;
+		codeSenseManager = 2784910F0FF1BF9F00BF23A5 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					784,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 272261984;
+			PBXWorkspaceStateSaveDate = 272261984;
+		};
+		perUserProjectItems = {
+			270733F8102C7B5700263BB5 = 270733F8102C7B5700263BB5 /* PBXTextBookmark */;
+			270733FA102C7B5700263BB5 = 270733FA102C7B5700263BB5 /* PBXTextBookmark */;
+			27073402102C7C9900263BB5 = 27073402102C7C9900263BB5 /* PBXTextBookmark */;
+			27829A91103A646F007DAAC2 /* PBXTextBookmark */ = 27829A91103A646F007DAAC2 /* PBXTextBookmark */;
+			278491100FF1C28500BF23A5 = 278491100FF1C28500BF23A5 /* PlistBookmark */;
+			278491120FF1C28500BF23A5 = 278491120FF1C28500BF23A5 /* PBXTextBookmark */;
+			278491130FF1C28500BF23A5 = 278491130FF1C28500BF23A5 /* PlistBookmark */;
+			27D508D6102FB53A00864925 = 27D508D6102FB53A00864925 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 2784910E0FF1BF9F00BF23A5 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	1A224C3EFF42367911CA2CB7 /* SMBIOSResolver.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {962, 472}}";
+			sepNavSelRange = "{396, 0}";
+			sepNavVisRange = "{0, 783}";
+		};
+	};
+	1A224C3FFF42367911CA2CB7 /* SMBIOSResolver.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1068, 7700}}";
+			sepNavSelRange = "{3265, 0}";
+			sepNavVisRange = "{2700, 1236}";
+		};
+	};
+	270733F8102C7B5700263BB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1A224C3EFF42367911CA2CB7 /* SMBIOSResolver.h */;
+		name = "SMBIOSResolver.h: 14";
+		rLen = 0;
+		rLoc = 396;
+		rType = 0;
+		vrLen = 783;
+		vrLoc = 0;
+	};
+	270733FA102C7B5700263BB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1A224C3EFF42367911CA2CB7 /* SMBIOSResolver.h */;
+		name = "SMBIOSResolver.h: 14";
+		rLen = 0;
+		rLoc = 396;
+		rType = 0;
+		vrLen = 783;
+		vrLoc = 0;
+	};
+	27073402102C7C9900263BB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1A224C3FFF42367911CA2CB7 /* SMBIOSResolver.cpp */;
+		name = "SMBIOSResolver.cpp: 66";
+		rLen = 0;
+		rLoc = 1348;
+		rType = 0;
+		vrLen = 785;
+		vrLoc = 1042;
+	};
+	27829A91103A646F007DAAC2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1A224C3FFF42367911CA2CB7 /* SMBIOSResolver.cpp */;
+		name = "SMBIOSResolver.cpp: 119";
+		rLen = 0;
+		rLoc = 3265;
+		rType = 0;
+		vrLen = 1236;
+		vrLoc = 2700;
+	};
+	2784910E0FF1BF9F00BF23A5 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	2784910F0FF1BF9F00BF23A5 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	278491100FF1C28500BF23A5 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 32D94FCF0562CBF700B6AF17 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			IOKitPersonalities,
+			Generic,
+			Override,
+		);
+		name = "/Users/meklort/latest/mydellmini/Kext Sources/SMBIOSResolver/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	278491120FF1C28500BF23A5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1A224C3FFF42367911CA2CB7 /* SMBIOSResolver.cpp */;
+		name = "SMBIOSResolver.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 857;
+		vrLoc = 1092;
+	};
+	278491130FF1C28500BF23A5 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 32D94FCF0562CBF700B6AF17 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			IOKitPersonalities,
+			Generic,
+			Override,
+		);
+		name = "/Users/meklort/latest/mydellmini/Kext Sources/SMBIOSResolver/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	27D508D6102FB53A00864925 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1A224C3FFF42367911CA2CB7 /* SMBIOSResolver.cpp */;
+		name = "SMBIOSResolver.cpp: 129";
+		rLen = 5;
+		rLoc = 3969;
+		rType = 0;
+		vrLen = 1338;
+		vrLoc = 2779;
+	};
+	32D94FC30562CBF700B6AF17 /* SMBIOSResolver */ = {
+		activeExec = 0;
+	};
+}
