@@ -64,7 +64,7 @@ bool FakeSMBIOS::start(IOService* provider)
         if (length)
         {
             IOLog("FakeSMBIOS: Inject compatible %s\n", gFakeCompatible->getCStringNoCopy());
-            fRoot->setProperty("product-name", OSData::withBytes(gFakeCompatible->getCStringNoCopy(), length + 1));
+            fRoot->setProperty("compatible", OSData::withBytes(gFakeCompatible->getCStringNoCopy(), length + 1));
         }
     }
     // inject product-name
