@@ -29,7 +29,7 @@ bool FakeSMBIOS::init(OSDictionary *dict)
         IOLog("FakeSMBIOS::init() %p failed\n", this);
         return ret;
     }
-    IOLog("FakeSMBIOS::init() %p\n", this);
+    IOLog("FakeSMBIOS::init()\n");
     setProperty("Build", "Release");
     setProperty("Author", "syscl");
     return ret;
@@ -43,7 +43,7 @@ bool FakeSMBIOS::start(IOService* provider)
         IOLog("FakeSMBIOS::start() failed\n");
         return ret;
     }
-    IOLog("FakeSMBIOS::start() %p\n", this);
+    IOLog("FakeSMBIOS::start()\n");
     fRoot = getServiceRoot();
     if (!provider || !fRoot)
     {
@@ -75,7 +75,7 @@ bool FakeSMBIOS::start(IOService* provider)
         length = gFakeProductName->getLength();
         if (length)
         {
-            IOLog("FakeSMBIOS: Inject model %s\n", gFakeProductName->getCStringNoCopy());
+            IOLog("FakeSMBIOS: Inject ProductName %s\n", gFakeProductName->getCStringNoCopy());
             fRoot->setProperty("product-name", OSData::withBytes(gFakeProductName->getCStringNoCopy(), length + 1));
         }
     }
@@ -101,13 +101,13 @@ bool FakeSMBIOS::start(IOService* provider)
 
 void FakeSMBIOS::stop(IOService* provider)
 {
-    IOLog("FakeSMBIOS::stop() %p\n", this);
+    IOLog("FakeSMBIOS::stop()\n");
     super::stop(provider);
 }
 
 void FakeSMBIOS::free(void)
 {
-    IOLog("FakeSMBIOS::free() %p\n", this);
+    IOLog("FakeSMBIOS::free()\n");
     fRoot->release();
     super::free();
 }
