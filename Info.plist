@@ -19,21 +19,13 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.0.0</string>
+	<string>1.0.2</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>Platform SMBIOS Match</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>org.syscl.FakeSMBIOS</string>
-			<key>IOClass</key>
-			<string>FakeSMBIOS</string>
-			<key>IOMatchCategory</key>
-			<string>FakeSMBIOS</string>
-			<key>IOProviderClass</key>
-			<string>IOPlatformExpertDevice</string>
-			<key>IOResourceMatch</key>
-			<string>SMBIOS</string>
 			<key>FakeProperties</key>
 			<dict>
 				<key>compatible</key>
@@ -43,6 +35,14 @@
 				<key>product-name</key>
 				<string>MacBookPro13,1</string>
 			</dict>
+			<key>IOClass</key>
+			<string>FakeSMBIOS</string>
+			<key>IOMatchCategory</key>
+			<string>FakeSMBIOS</string>
+			<key>IOProviderClass</key>
+			<string>IOPlatformExpertDevice</string>
+			<key>IOResourceMatch</key>
+			<string>SMBIOS</string>
 		</dict>
 	</dict>
 	<key>OSBundleLibraries</key>

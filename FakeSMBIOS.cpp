@@ -63,8 +63,15 @@ bool FakeSMBIOS::start(IOService* provider)
         length = gFakeCompatible->getLength();
         if (length)
         {
-            IOLog("FakeSMBIOS: Inject compatible %s\n", gFakeCompatible->getCStringNoCopy());
-            fRoot->setProperty("compatible", OSData::withBytes(gFakeCompatible->getCStringNoCopy(), length + 1));
+            if (fRoot->compareName(gFakeCompatible) != true)
+            {
+                IOLog("FakeSMBIOS: Inject compatible %s\n", gFakeCompatible->getCStringNoCopy());
+                fRoot->setProperty("compatible", OSData::withBytes(gFakeCompatible->getCStringNoCopy(), length + 1));
+            }
+            else
+            {
+                IOLog("FakeSMBIOS: Same compatible : %s, do nothing.\n", gFakeCompatible->getCStringNoCopy());
+            }
         }
     }
     // inject product-name
@@ -75,8 +82,15 @@ bool FakeSMBIOS::start(IOService* provider)
         length = gFakeProductName->getLength();
         if (length)
         {
-            IOLog("FakeSMBIOS: Inject ProductName %s\n", gFakeProductName->getCStringNoCopy());
-            fRoot->setProperty("product-name", OSData::withBytes(gFakeProductName->getCStringNoCopy(), length + 1));
+            if (fRoot->compareName(gFakeProductName) != true)
+            {
+                IOLog("FakeSMBIOS: Inject ProductName %s\n", gFakeProductName->getCStringNoCopy());
+                fRoot->setProperty("product-name", OSData::withBytes(gFakeProductName->getCStringNoCopy(), length + 1));
+            }
+            else
+            {
+                IOLog("FakeSMBIOS: Same product name: %s, do nothing.\n", gFakeProductName->getCStringNoCopy());
+            }
         }
     }
     // inject model
@@ -87,9 +101,16 @@ bool FakeSMBIOS::start(IOService* provider)
         length = gFakeModel->getLength();
         if (length)
         {
-            IOLog("FakeSMBIOS: Inject model %s\n", gFakeModel->getCStringNoCopy());
-            fRoot->setProperty("model", OSData::withBytes(gFakeModel->getCStringNoCopy(), length + 1));
-            fRoot->setName(gFakeModel->getCStringNoCopy());
+            if (fRoot->compareName(gFakeModel) != true)
+            {
+                IOLog("FakeSMBIOS: Inject model %s\n", gFakeModel->getCStringNoCopy());
+                fRoot->setProperty("model", OSData::withBytes(gFakeModel->getCStringNoCopy(), length + 1));
+                fRoot->setName(gFakeModel->getCStringNoCopy());
+            }
+            else
+            {
+                IOLog("FakeSMBIOS: Same model: %s, do nothing.\n", gFakeModel->getCStringNoCopy());
+            }
         }
     }
 
