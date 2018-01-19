@@ -1,2 +1,2 @@
 # ignore xcuserdata/
-FakeSMBIOS.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcuserstate
