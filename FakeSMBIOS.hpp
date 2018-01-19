@@ -8,18 +8,26 @@
  * 4.0 Unported License => http://creativecommons.org/licenses/by-nc/4.0
  */
 
+#ifndef FakeSMBIOS_hpp
+#define FakeSMBIOS_hpp
+
+#define kCurrentDrvName "FakeSMBIOS"
+
 class FakeSMBIOS : public IOService
 {
     OSDeclareDefaultStructors(FakeSMBIOS)
     typedef IOService super;
-
+    
 protected:
     IOService*      fRoot;
-
+    
 public:
     virtual bool    init(OSDictionary* dict);
     virtual bool    start(IOService* provider);
     virtual void    stop(IOService* provider);
     virtual void    free(void);
-
+    
 };
+
+#endif /* FakeSMBIOS_hpp */
+

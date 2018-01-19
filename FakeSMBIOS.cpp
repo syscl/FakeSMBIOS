@@ -26,7 +26,7 @@ bool FakeSMBIOS::init(OSDictionary *dict)
     bool ret = super::init(dict);
     if (ret != true)
     {
-        IOLog("FakeSMBIOS::init() %p failed\n", this);
+        IOLog("FakeSMBIOS::init() failed\n");
         return ret;
     }
     IOLog("FakeSMBIOS::init()\n");
@@ -114,7 +114,7 @@ bool FakeSMBIOS::start(IOService* provider)
         }
     }
 
-    publishResource("FakeSMBIOS");
+    publishResource(kCurrentDrvName);
     registerService();
 
     return ret;

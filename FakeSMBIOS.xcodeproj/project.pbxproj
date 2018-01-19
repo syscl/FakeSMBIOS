@@ -8,12 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		32D94FC60562CBF700B6AF17 /* FakeSMBIOS.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 1A224C3EFF42367911CA2CB7 /* FakeSMBIOS.hpp */; };
-		32D94FC80562CBF700B6AF17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
 		32D94FCA0562CBF700B6AF17 /* FakeSMBIOS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A224C3FFF42367911CA2CB7 /* FakeSMBIOS.cpp */; settings = {ATTRIBUTES = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1A224C3EFF42367911CA2CB7 /* FakeSMBIOS.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FakeSMBIOS.hpp; sourceTree = "<group>"; };
 		1A224C3FFF42367911CA2CB7 /* FakeSMBIOS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FakeSMBIOS.cpp; sourceTree = "<group>"; };
 		32D94FCF0562CBF700B6AF17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -32,7 +30,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		089C166AFE841209C02AAC07 /* SMBIOSResolver */ = {
+		089C166AFE841209C02AAC07 /* FakeSMBIOS */ = {
 			isa = PBXGroup;
 			children = (
 				247142CAFF3F8F9811CA285C /* Source */,
@@ -40,14 +38,13 @@
 				089C167CFE841241C02AAC07 /* Resources */,
 				19C28FB6FE9D52B211CA2CBB /* Products */,
 			);
-			name = SMBIOSResolver;
+			name = FakeSMBIOS;
 			sourceTree = "<group>";
 		};
 		089C167CFE841241C02AAC07 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				32D94FCF0562CBF700B6AF17 /* Info.plist */,
-				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -99,7 +96,7 @@
 			);
 			name = FakeSMBIOS;
 			productInstallPath = "$(SYSTEM_LIBRARY_DIR)/Extensions";
-			productName = SMBIOSResolver;
+			productName = FakeSMBIOS;
 			productReference = 32D94FD00562CBF700B6AF17 /* FakeSMBIOS.kext */;
 			productType = "com.apple.product-type.kernel-extension.iokit";
 		};
@@ -118,7 +115,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = 089C166AFE841209C02AAC07 /* SMBIOSResolver */;
+			mainGroup = 089C166AFE841209C02AAC07 /* FakeSMBIOS */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -132,7 +129,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32D94FC80562CBF700B6AF17 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,17 +154,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				089C167EFE841241C02AAC07 /* English */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1DEB91DA08733DB10010E9CD /* Debug */ = {
